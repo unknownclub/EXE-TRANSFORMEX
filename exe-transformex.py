@@ -29,4 +29,3 @@ if len(sys.argv) == 2:
 else:
 	print "Usage: ./exe-transformex.py <.EXE file>"
 
-
