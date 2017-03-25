@@ -18,7 +18,7 @@ if len(sys.argv) == 2:
 		target_file = sys.argv[1]
 		print subprocess.check_output(['powershell','-noprofile','-command','[byte[]] $hexdump = get-content -encoding byte -path "'+target_file+'"; [System.IO.File]::WriteAllLines("hex-payload.txt", ([string]$hexdump))'])
 		print "Now!! Converting...."
-		print "Successful converting.... | Payloaded is 'hex-payload.txt'"
+		print "Successful converting.... | Payloaded in 'hex-payload.txt'"
 		sleep(3)
 		file = open("hex-payload.txt",'rb')
 		print "Payload size : %d KB" % (getSize(file)/1024)
