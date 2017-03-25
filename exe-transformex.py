@@ -7,11 +7,11 @@ def getSize(fileobject):
     return size
     file = open('myfile.bin', 'rb')
 print '''
-################################################################
-#                      EXE-TRANSFORMEX                         #
-# Simple Python script for convert EXE files to Array of HEX   #
-# By un4ckn0wl3z | https://haxtivitiez.wordpress.com           #
-################################################################
+#################################################################################
+#                               EXE-TRANSFORMEX                         	#
+# Simple Python (and PowerShell) script for convert EXE files to Array of HEX   #
+# By un4ckn0wl3z | https://haxtivitiez.wordpress.com           			#
+#################################################################################
 '''
 if len(sys.argv) == 2:
 	try:
@@ -27,6 +27,6 @@ if len(sys.argv) == 2:
 	except Exception as e:
 		print e 
 else:
-	print "Usage: ./exe-transformex <.EXE file>"
+	print "Usage: ./exe-transformex.py <.EXE file>"
 
 
