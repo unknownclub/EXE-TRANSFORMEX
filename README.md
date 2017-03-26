@@ -7,4 +7,7 @@ By un4ckn0wl3z | https://haxtivitiez.wordpress.com
 Usage: ./exe-transformex.py <.EXE file>
 and output array of hex locate in "hex-payload.txt".
 
+# Suport
+Windows7/8/10 and Python 2.7
+
 
